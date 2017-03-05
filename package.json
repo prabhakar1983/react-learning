@@ -1,0 +1,26 @@
+{
+  "name": "react-learning",
+  "version": "1.0.0",
+  "description": "Learn react",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabhakar1983/react-learning.git"
+  },
+  "author": "Prabhakar Thatchinamoorthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabhakar1983/react-learning/issues"
+  },
+  "homepage": "https://github.com/prabhakar1983/react-learning#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.23.0",
+    "babelify": "^7.3.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "watchify": "^3.9.0"
+  }
+}
